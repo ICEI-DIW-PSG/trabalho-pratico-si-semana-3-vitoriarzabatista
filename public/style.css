@@ -144,7 +144,44 @@ section p {
 .galeria img:hover {
     transform: scale(1.05); 
 }
+/* Estilo geral do formulário */
+#contato form {
+    max-width: 500px;
+    margin: 0 auto; /* centraliza */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#contato button {
+    padding: 10px 20px;
+    background-color: #e67e22; /* cor do site */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #d35400;
+}
+
+#contato fieldset {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 15px;
+}
 /*RODAPÉ*/
 footer {
     background: #f8f4ef;
