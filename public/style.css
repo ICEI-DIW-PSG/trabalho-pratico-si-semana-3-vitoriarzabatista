@@ -1,0 +1,193 @@
+/*ESTILO GERAL*/
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background-color: #fdfcf9;
+    color: #333;
+    line-height: 1.6;
+}
+h3 {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*CABEÇALHO*/
+header {
+    text-align: center;
+    background: #f8f4ef;
+    padding: 20px;
+    border-bottom: 2px solid #d4c7b0;
+}
+.logo {
+    font-family: "Times New Roman", serif;
+    font-size: 2.5rem;
+    color: #6a4225;
+    margin: 0;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6a4225;
+    transition: color 0.3s;
+}
+.menu a:hover {
+    color: #b87b4c;
+}
+.destaque {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+/*MAIN*/
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+section {
+    margin-bottom: 60px;
+}
+section h2 {
+    font-size: 2rem;
+    color: #6a4225;
+    margin-bottom: 15px;
+    text-align: center;
+}
+section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*EVENTOS*/
+.apresentação {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.eventos div {
+    display: inline-block;
+    width: 45%;   
+    vertical-align: top; 
+    margin: 10px;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+/*CARDÁPIO*/
+.cardapio {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cardapio .fotos_cardapios div {
+    display: inline-block;
+    width: 27%;  
+    vertical-align: top;
+    margin: 10px;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.cardapio .fotos_cardapios div:hover {
+    transform: translateY(-5px);
+}
+
+.cardapio img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardapio h4 {
+    margin-top: 10px;
+    color: #6a4225;
+}
+
+.cardapio p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+/*GALERIA*/
+.galeria {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.galeria img {
+    width: 280px;         
+    height: auto;         
+    margin: 15px;         
+    border-radius: 12px;  
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.15); 
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05); 
+}
+
+/*RODAPÉ*/
+footer {
+    background: #f8f4ef;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 2px solid #d4c7b0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #6a4225;
+    font-weight: bold;
+}
+
+footer nav a:hover {
+    color: #b87b4c;
+}
+
+.social {
+    margin: 15px 0;
+}
+
+.social a {
+    margin: 0 10px;
+    color: #6a4225;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social a:hover {
+    color: #b87b4c;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #555;
+}
