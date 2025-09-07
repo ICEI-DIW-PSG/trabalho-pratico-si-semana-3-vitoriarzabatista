@@ -10,17 +10,18 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Vitoria Amancio Roza Batista
+- Matricula: 1630857
+- Proposta de projeto escolhida: Lugares e Experiências
+- Breve descrição sobre seu projeto: O projeto é destinado a um espaço de eventos localizado na Itália, cuja entidade principal será a realização de casamentos, eventos corporativos e outras celebrações. Trata-se de um site com proposta romântica e clássica, que apresentará informações sobre o local, sua história e um cardápio gastronômico típico da Itália.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Wireframe](wireframe.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Wireframe](home_page1.png)
+![Wireframe](home_page2.png)
